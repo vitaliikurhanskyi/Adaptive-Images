@@ -1,0 +1,128 @@
+body {
+	font-size: 18px;
+	line-height: 150%;
+}
+
+.wrapper {
+	overflow: hidden;
+	background: #ccc;
+	min-height: 100%;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+section {
+	margin: 20px 0;
+}
+
+.text__h2 {
+	font-size: 30px;
+	padding: 20px 0;
+}
+
+.text__image {
+	margin: 20px 0 40px 0;
+}
+
+.text__image {
+	text-align: center;
+}
+
+.text__image img {
+	max-width: 100%;
+}
+
+.cards__title {
+	font-size: 30px;
+	margin: 20px 0 40px 0;
+}
+
+.cards__row {
+	display: flex;
+}
+
+.cards__column {
+	display: flex;
+	padding-right: 20px;
+}
+
+
+.cards__image {
+	margin:  0 0 20px 0;
+	/*height:  200px;*/
+	overflow: hidden;
+}
+
+.cards__image-1 {
+	background: url('../img/800x400.jpg') center / cover no-repeat;
+}
+
+.cards__image-2 {
+	background: url('../img/400x600.webp') center / cover no-repeat;
+}
+
+.cards__image-3 {
+	background: url('../img/1300x200.png') center / cover no-repeat;
+}
+
+/* for img tag */
+
+/* for proportional reduction */
+.cards__image {
+	/*height:  200px;*/
+	position:  relative;
+	padding: 0 0 58% 0;
+}
+
+.cards__image img {
+	width: 100%;
+	height: 100%;
+	object-fit: fill; /* default */
+	object-fit: contain; /* put image in container */
+	object-fit: none; /* whole image in container */
+	object-fit: cover; /* like a background cover */
+	object-position: 20% 80%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* Сards in a row  */
+
+.item__titles {
+	font-size: 30px;
+	margin: 20px 0 40px 0;
+}
+
+.items__item {
+	display: flex;
+	margin: 20px 0;
+}
+
+.items__body {
+	padding-left: 30px;
+}
+
+.items__image {
+	flex: 0 0 33.333%;
+	position: relative;
+	min-height: 155px;
+}
+
+.items__image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+
+
+
